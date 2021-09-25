@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+
+    <link rel="stylesheet" href="./public/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main id="app">
+        <header id="header">
+                <img id="header-img" src="./public/assets/t.svg" alt="logo">
+                <nav id="nav-bar">
+                    <a href="#video" class="nav-link">video</a>
+                    <a href="#products" class="nav-link">products</a>
+                    <a href="#form" class="nav-link">newsletter</a>
+                </nav>
+        </header>
+        <iframe id="video" src="https://www.youtube.com/embed/LI1va-97f4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <div id="products">
+            <div class="product-wrapper">
+                <div class="product-card">
+                    <img src="./public/assets/gray.png" alt="backpack1">
+                    <p>Gray</p>
+                    <button>BUY</button>
+                </div>
+            </div>
+            <div class="product-wrapper">
+                <div class="product-card">
+                    <img src="./public/assets/orange.png" alt="backpack1">
+                    <p>Gray</p>
+                    <button>BUY</button>
+                </div>
+            </div>
+        </div>
+
+        <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
+            <h1 id="form-title">
+                Didn't find the one you like?
+            </h1>
+            <p>Leave your email to be the first to know when more models arrive</p>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            
+            <input type="submit" value="submit" id="submit">
+            
+        </form>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
